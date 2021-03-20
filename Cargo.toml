@@ -1,0 +1,8 @@
+[package]
+name = "ioracle-stand"
+version = "0.1.0"
+authors = ["Denis K. <konsistentsi@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rs_ws281x = "0.4"
