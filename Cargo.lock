@@ -69,6 +69,7 @@ checksum = "9b919933a397b79c37e33b77bb2aa3dc8eb6e165ad809e58ff75bc7db2e34574"
 name = "ioracle-stand"
 version = "0.1.0"
 dependencies = [
+ "rppal",
  "rs_ws281x",
 ]
 
@@ -144,6 +145,16 @@ name = "regex-syntax"
 version = "0.6.23"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "24d5f089152e60f62d28b835fbff2cd2e8dc0baf1ac13343bef92ab7eed84548"
+
+[[package]]
+name = "rppal"
+version = "0.11.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "137dbba1fb867daa27cda4c3cd6a11bca5bb5a1551f034cf9319b994846ddbe1"
+dependencies = [
+ "lazy_static",
+ "libc",
+]
 
 [[package]]
 name = "rs_ws281x"

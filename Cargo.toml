@@ -6,3 +6,4 @@ edition = "2018"
 
 [dependencies]
 rs_ws281x = "0.4"
+rppal = "0.11"
